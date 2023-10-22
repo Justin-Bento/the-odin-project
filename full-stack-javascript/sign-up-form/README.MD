@@ -1,8 +1,7 @@
 
-# Project: Sign-up Form
+# Project: Sign-up Form Intermediate HTML and CSS Course
 
-Intermediate HTML and CSS Course
-
+Challange: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form#assignment
 Live Preview URL: https://the-odin-project-sandy.vercel.app/full-stack-javascript/sign-up-form/
 
 ## Assignment
