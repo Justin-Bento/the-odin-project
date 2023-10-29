@@ -43,3 +43,85 @@ em {
   font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
   font-style: italic;
 }
+
+/*   
+  ============================================================ 
+    End of Stylesheet Reset
+  ============================================================
+*/
+main {
+  padding: 1rem;
+  max-width: 1536px;
+  margin: 0rem auto;
+}
+h2 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  letter-spacing: 0.0125em;
+  font-weight: 600;
+}
+.user-content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.user-content-projects {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.invidual-project {
+  border-left: 0.35rem solid #fcd34d;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem; /* 8px */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.invidual-project h3 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  font-weight: 500;
+  color: #020617;
+  letter-spacing: 0.025em;
+}
+.invidual-project p {
+  line-height: 1.25rem; /* 20px */
+  font-size: 0.875rem; /* 14px */
+  color: #475569;
+  letter-spacing: 0.0125em;
+}
+.invidual-project span {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: end;
+}
+.invidual-project span img {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: #475569;
+  opacity: 0.6;
+}
+@media (min-width: 1280px) {
+  .user-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .user-content-projects {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .user-content-projects h2 {
+    grid-column: span 2;
+  }
+  .user-content-projects {
+    grid-row: span 2;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
