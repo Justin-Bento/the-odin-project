@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("/assets/fonts/InstrumentSans-VariableFont.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Instrument Sans Italic";
+  src: url("/assets/fonts/InstrumentSans-Italic-VariableFont.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+body {
+  min-height: 100vh;
+  font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+}
+em {
+  font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
