@@ -247,7 +247,80 @@ body {
 */
 main section {
   min-height: 90vh;
+  padding: 1rem;
 }
+.content {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+.content .projects h2 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 500;
+  margin-bottom: 1rem; /* 288px */
+}
+.content .projects .projects-wrapper > div {
+  border-left: 4px solid #fbbf24;
+  background: #fafafa;
+  border-radius: 0.375rem; /* 6px */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding: 1.25rem 1rem; /* 16px top and bottom, 20px left and right */
+  gap: 0.25rem;
+}
+.content .projects .projects-wrapper > div > h2 {
+  border-left: 4px solid #fbbf24;
+  background: #fafafa;
+  border-radius: 0.375rem; /* 6px */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding: 1.25rem 1rem; /* 16px top and bottom, 20px left and right */
+  gap: 0.25rem;
+}
+.content > .projects > .projects-wrapper > div > h3 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.025em;
+  font-weight: 600;
+}
+.content > .projects > .projects-wrapper > div > p {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: 0.025em;
+  color: rgb(51 65 85);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.content > .projects > .projects-wrapper > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.875rem;
+}
+.content > .projects > .projects-wrapper > div > span > img {
+  width: 1.25rem;
+  height: 1.25rem;
+  opacity: 0.5;
+}
+/* End of Projects section inside content  */
+
+.content .announcements h2 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 500;
+  margin-bottom: 1rem; /* 288px */
+}
+
+/* End of announcements section inside content  */
+
+.content .trending h2 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 500;
+  margin-bottom: 1rem; /* 288px */
+}
+
+/* End of trending section inside content  */
+
 @media (min-width: 640px) {
   .navbar-container-top-pannel .user .user-name {
     display: block;
@@ -275,9 +348,21 @@ main section {
     min-height: 10vh;
   }
   main section {
-    padding: 1rem;
     width: 100%;
-    padding: 1rem;
     min-height: 90vh;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .content .projects {
+    grid-row: span 2;
+    grid-column: span 3;
+  }
+  .content .projects .projects-wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
