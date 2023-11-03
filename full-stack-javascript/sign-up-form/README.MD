@@ -27,3 +27,9 @@ Live Preview URL: https://the-odin-project-sandy.vercel.app/full-stack-javascrip
 * The other variation is the selected input, which should have a blue border and subtle box-shadow. This can be done with the :focus pseudo-class you’ve learned about in an earlier lesson
 * Do not worry about making your project look nice on mobile, but DO resize your browser a little bit to make sure that it’s not completely broken at different desktop resolutions
 * Checking that the password fields match each other requires javascript. Try to implement this if you feel confident, otherwise just validate each field separately.
+
+## What was your motivation?
+
+My motivation behind this assignment was to test my understanding of not only the form element but also all the associated input elements without using documentation. After re-reading and writing down this course, I gained a better understanding of not only the practical aspects of forms but also the theoretical concepts. Previously, I found it challenging to explain forms, but now I feel much more confident in my ability to do so. While there is nothing special about this version, it gave me the confidence to improve my understanding of HTML forms.
+
+## 
