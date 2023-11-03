@@ -55,17 +55,137 @@ body {
 }
 .sidebar {
   display: none;
-  background-color: lightblue;
+  background-color: #0ea5e9;
 }
-main header {
-  min-height: 10vh;
-  background-color: palevioletred;
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 1.25rem 1rem;
 }
+.navbar-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+.navbar-container-top-pannel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.navbar-container-top-pannel form {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  width: 100%;
+}
+.navbar-container-top-pannel form input[type="search"] {
+  display: block;
+  padding: 0.375rem 1rem;
+  background-color: #cbd5e1;
+  border: 1px solid #cbd5e1;
+  width: 100%;
+  color: #111827;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.75rem;
+}
+.navbar-container-top-pannel .user {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+.navbar-container-top-pannel .user .user-avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 99rem;
+  background-color: #f1f5f9;
+}
+.navbar-container-top-pannel .user .user-name {
+  display: none;
+}
+/* Eng of Navbar Top Pannel */
+.navbar-container-bottom-pannel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.navbar-container-bottom-pannel .user {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+.navbar-container-bottom-pannel .user .user-avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 99rem;
+  background-color: #f1f5f9;
+}
+.navbar-container-bottom-pannel .user .user-info {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.navbar-container-bottom-pannel .user .user-info p:first-of-type {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 800;
+  letter-spacing: 0.025em;
+}
+.navbar-container-bottom-pannel .user .user-info p:last-of-type {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 800;
+  letter-spacing: 0.025em;
+}
+.navbar-container-bottom-pannel .actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+.navbar-container-bottom-pannel .actions button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 99rem;
+  height: 2.75rem;
+  color: hsl(204, 100%, 97%);
+  background-color: hsl(200, 98%, 39%);
+  border: 1px solid hsl(200, 98%, 39%);
+}
+.navbar-container-bottom-pannel .actions button:hover {
+  cursor: pointer;
+  background-color: hsla(200, 98%, 39%, 0.8);
+  border: 1px solid hsla(200, 98%, 39%, 0.8);
+}
+/*   
+  ============================================================ 
+    End of Navbar
+  ============================================================
+*/
 main section {
   min-height: 90vh;
-  background-color: palegreen;
 }
-
+@media (min-width: 640px) {
+  .navbar-container-top-pannel .user .user-name {
+    display: block;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 800;
+  }
+}
 @media (min-width: 1080px) {
   body {
     display: grid;
