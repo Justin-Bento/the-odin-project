@@ -300,6 +300,13 @@ main section {
   width: 1.25rem;
   height: 1.25rem;
   opacity: 0.5;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.content > .projects > .projects-wrapper > div > span > img:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 /* End of Projects section inside content  */
 
