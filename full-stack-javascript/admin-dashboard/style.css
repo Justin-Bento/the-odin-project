@@ -361,6 +361,47 @@ main section {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
+
+.trending .trending-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem; /* 4px */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.trending .trending-container .user:first-of-type {
+  border-top: transparent;
+}
+.trending .trending-container .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
+  border-top: 1px solid rgba(100, 116, 139, 0.3);
+}
+.trending .trending-container .user img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 99rem;
+  background-color: #f1f5f9;
+  object-fit: fill;
+  object-position: center;
+}
+.trending .trending-container .user span {
+  display: flex;
+  flex-direction: column;
+}
+.trending .trending-container .user span p:first-of-type {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.025em;
+  font-weight: 600;
+}
+.trending .trending-container .user span p:last-of-type {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: 0.025em;
+  color: #475569;
+}
 @media (min-width: 640px) {
   .navbar-container-top-pannel .user .user-name {
     display: block;
