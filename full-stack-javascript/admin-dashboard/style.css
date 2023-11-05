@@ -328,6 +328,39 @@ main section {
 
 /* End of trending section inside content  */
 
+.announcements .announcements-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem; /* 4px */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.announcements .announcements-container .announcements-pannel {
+  background-color: #fff;
+}
+.announcements .announcements-container > div:first-of-type {
+  border: transparent;
+  padding: 0rem 1rem 1rem 1rem;
+}
+.announcements .announcements-container > div {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.announcements .announcements-container div p:first-of-type {
+  border-top: transparent;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 600;
+}
+.announcements .announcements-container > div p:last-of-type {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+  color: rgba(51 65 85, 0.3);
+  letter-spacing: 0.025em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
 @media (min-width: 640px) {
   .navbar-container-top-pannel .user .user-name {
     display: block;
