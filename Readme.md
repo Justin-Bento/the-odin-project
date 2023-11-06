@@ -10,3 +10,26 @@
 <h2>Odin Project Time Line</h2>
 <p>Foundations Course: January 2023 - March 2023</p>
 <p>Started Full Stack JavaScript: June 2023 - Ongoing</p>
+
+
+## Foundations Projects
+
+## Full Stack JavaScript
+
+**Project: Signup Form**
+
+Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
+
+Live URL: [https://the-odin-project-sandy.vercel.app/full-stack-javascript/admin-dashboard/index.html](https://the-odin-project-sandy.vercel.app/full-stack-javascript/sign-up-form/)
+
+Github Code URL: [https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/admin-dashboard](https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/sign-up-form) 
+
+---
+
+**Project: Admin Dashboard**
+
+Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
+
+Live URL: https://the-odin-project-sandy.vercel.app/full-stack-javascript/admin-dashboard/index.html
+
+Github Code URL: https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/admin-dashboard 
