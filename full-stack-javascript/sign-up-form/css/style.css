@@ -10,13 +10,15 @@
 }
 @font-face {
   font-family: "Overused Grotesk";
-  src: url("/assets/OverusedGrotesk-VF.ttf") format("truetype");
+  src: url("/full-stack-javascript/sign-up-form/assets/OverusedGrotesk-VF.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Norse Bold";
-  src: url("/assets/Norse-Bold.otf") format("opentype");
+  src: url("/full-stack-javascript/sign-up-form/assets/Norse-Bold.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
 }

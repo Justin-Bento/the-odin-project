@@ -44,13 +44,14 @@
 }
 @font-face {
   font-family: "Instrument Sans";
-  src: url("/assets/fonts/InstrumentSans-VariableFont.ttf") format("truetype");
+  src: url("/full-stack-javascript/admin-dashboard/assets/fonts/InstrumentSans-VariableFont.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Instrument Sans Italic";
-  src: url("/assets/fonts/InstrumentSans-Italic-VariableFont.ttf")
+  src: url("/full-stack-javascript/admin-dashboard/assets/fonts/InstrumentSans-Italic-VariableFont.ttf")
     format("truetype");
   font-weight: 100 900;
   font-style: normal;
