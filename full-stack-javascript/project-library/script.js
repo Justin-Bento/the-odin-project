@@ -25,6 +25,14 @@ const book5 = new Book("What Every Body Is Saying", "Joe Navarro", 235, 0); //23
 const book6 = new Book("Writing For The Web", "Crawford Kilian", 187, 187);
 const book7 = new Book("The Design of Everyday Things", "Don Norman", 347, 347);
 
-function addBookToLibrary() {
+function addBookToLibrary(book) {
   // do stuff here
+  myLibrary.push(book)
 }
+addBookToLibrary(book1);
+addBookToLibrary(book2);
+addBookToLibrary(book3);
+addBookToLibrary(book4);
+addBookToLibrary(book5);
+addBookToLibrary(book6);
+addBookToLibrary(book7);
