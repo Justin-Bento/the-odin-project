@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  --big-stone-40: hsla(208, 100%, 97%, 0.5);
+  --big-stone-50: #f0f8ff;
+  --big-stone-100: #e1f0fd;
+  --big-stone-200: #bce1fb;
+  --big-stone-300: #81cbf8;
+  --big-stone-400: #3eb0f2;
+  --big-stone-500: #1595e2;
+  --big-stone-600: #0876c1;
+  --big-stone-700: #085e9c;
+  --big-stone-800: #0b5181;
+  --big-stone-900: #0f436b;
+  --big-stone-950: #09263f;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+  background-color: var(--big-stone-40);
+  font-size: 1rem;
+  color: var(--big-stone-950);
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: bold;
+}
+
+em {
+  font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
