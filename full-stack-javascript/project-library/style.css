@@ -19,6 +19,14 @@
   --big-stone-950: #09263f;
 }
 
+@font-face {
+  font-family: "Lexend";
+  src: url("/full-stack-javascript/project-library/Lexend-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 img,
 picture,
 svg,
@@ -36,7 +44,7 @@ select {
 
 body {
   min-height: 100vh;
-  font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+  font-family: "Lexend", Arial, Helvetica, sans-serif;
   background-color: var(--big-stone-40);
   font-size: 1rem;
   color: var(--big-stone-950);
