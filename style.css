@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.subtile {
+  margin: 0rem;
+  padding: 0rem;
+  list-style-type: none !important;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 600;
+}
