@@ -1,0 +1,12 @@
+body {
+  max-width: 80ch;
+}
+section {
+  padding: 1rem 0rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
