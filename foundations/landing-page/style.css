@@ -5,3 +5,9 @@
   padding: 0rem;
   box-sizing: border-box;
 }
+* {
+  --bg-color: #3b82f6;
+  --dark-bg-color: #1f2937;
+  --primary-color: #f9fafb;
+  --secondary-color: #e5e7eb;
+}
