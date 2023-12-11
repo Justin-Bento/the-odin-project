@@ -1,4 +1,5 @@
 let startGame = document.querySelector(".startGame");
+let userResponse = document.querySelector(".user-response");
 startGame.addEventListener("click", (event) => {
   const conditions = {
     rock: 'rock',
@@ -16,11 +17,11 @@ startGame.addEventListener("click", (event) => {
     ];
   
     if (playerSelection === computerSelection) {
-      console.log(`It's a tie! ${playerSelection} can't beat ${computerSelection}.`);
+      userResponse.textContent = (`It's a tie! ${playerSelection} can't beat ${computerSelection}.`);
     } else if (winningCombinations.some(([player, computer]) => player === playerSelection && computer === computerSelection)) {
-      console.log(`${playerSelection} beats ${computerSelection}. You win!`);
+      userResponse.textContent = (`${playerSelection} beats ${computerSelection}. You win!`);
     } else {
-      console.log(`${computerSelection} beats ${playerSelection}. You lose!`);
+      userResponse.textContent = (`${computerSelection} beats ${playerSelection}. You lose!`);
     }
   }
   
