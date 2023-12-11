@@ -84,6 +84,13 @@
   padding: 0.5rem 1.5rem;
   font-weight: 600;
   border-radius: 0.05rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.hero .hero-container .hero-pannel-1 button:hover {
+  background: hsl(217, 91%, 50%);
+  cursor: pointer;
 }
 
 .hero .hero-container .hero-pannel-2 img {
@@ -165,6 +172,13 @@
   padding: 0.5rem 1.5rem;
   font-weight: 600;
   border-radius: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.call-to-action .cta-pannel button:hover {
+  background: hsl(217, 91%, 58%);
+  cursor: pointer;
 }
 footer {
   padding-top: clamp(1rem, 3vw, 3rem);
