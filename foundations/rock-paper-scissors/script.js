@@ -3,5 +3,9 @@ function playRound(playerSelection, computerSelection) {
 }
  
 const playerSelection = "rock";
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
+const computerSelection = getComputerChoice(3);
+console.log(computerSelection);
+
+function getComputerChoice(max) {
+  return Math.floor(Math.random() * max)
+}
