@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("/foundations/rock-paper-scissors/assets/fonts/RethinkSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rethink Sans Italic";
+  src: url("/foundations/rock-paper-scissors/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+body {
+  min-height: 100vh;
+  font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+  background-color: var(--neutral-100);
+}
+em {
+  font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0rem 1rem;
+}
+.breadcrumbs a {
+  color: hsla(0, 0, 0, 1);
+  text-decoration: none;
+}
+main {
+  padding: 1rem;
+}
+h1 {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  font-weight: 600;
+}
+.startGame {
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(243, 75%, 59%, 1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid hsla(243, 75%, 59%, 1);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+
+}
+.startGame:hover {
+  cursor: pointer;
+  background-color: hsl(243, 75%, 39%);
+  box-shadow: transparent;
+}
