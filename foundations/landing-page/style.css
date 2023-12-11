@@ -10,6 +10,21 @@
   --dark-bg-color: #1f2937;
   --primary-color: #f9fafb;
   --secondary-color: #e5e7eb;
+  font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("/foundations/landing-page/assets/fonts/RethinkSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rethink Sans Italic";
+  src: url("/foundations/landing-page/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
 }
 .wrapper .hero-container {
   max-width: 1536px;
