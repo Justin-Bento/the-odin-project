@@ -58,3 +58,11 @@ em {
   color: hsla(0,0,0, 1);
   text-decoration: none;
 }
+main {
+  padding: 1rem; 
+}
+h1 {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  font-weight: 600;
+}
