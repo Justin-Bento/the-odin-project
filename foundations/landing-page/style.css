@@ -11,6 +11,10 @@
   --primary-color: #f9fafb;
   --secondary-color: #e5e7eb;
 }
+.wrapper {
+  max-width: 1536px;
+  margin: 0rem auto;
+}
 .navbar {
   padding: 1.5rem;
   background: var(--dark-bg-color);
