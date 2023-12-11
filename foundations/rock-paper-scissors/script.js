@@ -1,16 +1,16 @@
 const conditions = {
-  rock: "rock",
-  paper: "paper",
-  scissors: "scissors"
+  rock: 'rock',
+  paper: 'paper',
+  scissors: 'scissors',
 };
 
 function playRound(playerSelection, computerSelection) {
-  playerSelection = playerSelection.toLowerCase(); // Convert to lowercase for case-insensitivity
+  playerSelection = playerSelection.toLowerCase();
 
   const winningCombinations = [
-    ["rock", "scissors"],
-    ["paper", "rock"],
-    ["scissors", "paper"]
+    ['rock', 'scissors'],
+    ['paper', 'rock'],
+    ['scissors', 'paper'],
   ];
 
   if (playerSelection === computerSelection) {
@@ -24,6 +24,7 @@ function playRound(playerSelection, computerSelection) {
 
 function getComputerChoice(max) {
   const decision = Math.floor(Math.random() * max);
+
   if (decision === 0) {
     return conditions.rock;
   } else if (decision === 1) {
@@ -34,8 +35,8 @@ function getComputerChoice(max) {
 }
 
 function getPlayerChoice() {
-  const playerChoice = window.prompt("Choose Rock, Paper, or Scissors:", "");
-  return playerChoice.toLowerCase(); // Convert to lowercase for case-insensitivity
+  const playerChoice = window.prompt('Choose Rock, Paper, or Scissors:', '');
+  return playerChoice.toLowerCase();
 }
 
 const playerSelection = getPlayerChoice();
