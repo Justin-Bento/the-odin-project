@@ -1,15 +1,22 @@
-const playerSelection = getPlayerChoice("Rock");
+const playerSelection = getPlayerChoice();
 const computerSelection = getComputerChoice(3);
 
 function playRound(playerSelection, computerSelection) {
-  console.log(computerSelection + playerSelection);
-  // Add the logic for the game round here
+  if (playerSelection === computerSelection) {
+    console.log(`It's a tie! ${playerSelection} can't beat ${computerSelection}.`);
+  } else if (playerSelection === "Rock" && computerSelection === "Scissors!") {
+    console.log(`${playerSelection} beats ${computerSelection}. You win!`);
+  } else if (playerSelection === "Paper!" && computerSelection === "Rock!") {
+    console.log(`${playerSelection} beats ${computerSelection}. You win!`);
+  } else if (playerSelection === "Scissors!" && computerSelection === "Paper!") {
+    console.log(`${playerSelection} beats ${computerSelection}. You win!`);
+  } else {
+    console.log(`${computerSelection} beats ${playerSelection}. You lose!`);
+  }
 }
 
 function getComputerChoice(max) {
-  // Generate a random decision (0 for Rock, 1 for Paper, 2 for Scissors)
   let decision = Math.floor(Math.random() * max);
-  // Determine the output based on the value of the 'decision' variable
   if (decision === 0) {
     return "Rock!";
   } else if (decision === 1) {
@@ -19,9 +26,9 @@ function getComputerChoice(max) {
   }
 }
 
-function getPlayerChoice(input) {
-  return `${input}`;
+function getPlayerChoice() {
+  let playerChoice = window.prompt("Choose Rock, Paper, or Scissors:", "");
+  return playerChoice;
 }
 
-// Call the playRound function to log the result
 playRound(playerSelection, computerSelection);
