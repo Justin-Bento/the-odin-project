@@ -119,3 +119,24 @@
   border-radius: 1.25rem;
   border: 0.25rem solid var(--bg-color);
 }
+
+.insperation {
+  background-color: var(--secondary-color);
+  padding-top: clamp(1rem, 3vw, 8rem);
+  padding-bottom: clamp(1rem, 3vw, 8rem);
+}
+.insperation-container {
+  max-width: 120ch;
+  margin: 0rem auto;
+}
+.insperation-container p:first-of-type {
+  font-size: 2.25rem; /* 36px */
+  line-height: 3.5rem; /* 40px */
+  margin-bottom: 2rem;
+}
+.insperation-container p:last-of-type {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 600;
+  text-align: end;
+}
