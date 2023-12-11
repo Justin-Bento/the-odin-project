@@ -11,7 +11,7 @@
   --primary-color: #f9fafb;
   --secondary-color: #e5e7eb;
 }
-.wrapper {
+.wrapper .hero-container {
   max-width: 1536px;
   margin: 0rem auto;
 }
@@ -43,4 +43,49 @@
   color: var(--secondary-color);
   font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
+}
+.hero {
+  padding: 1rem;
+  background: var(--dark-bg-color);
+}
+
+.hero .hero-container  {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0rem auto;
+  gap: 2rem;
+  padding-top: clamp(1rem, 3vw, 8rem);
+  padding-bottom: clamp(1rem, 3vw, 8rem);
+}
+.hero .hero-container .hero-pannel-1 {
+  width: 100%;
+}
+.hero .hero-container .hero-pannel-1 h1 {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  color: var(--primary-color);
+}
+.hero .hero-container .hero-pannel-1 p {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  color: var(--primary-color);
+  max-width: 60ch;
+  padding: 1.55rem 0rem;
+}
+.hero .hero-container .hero-pannel-1 button {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: var(--primary-color);
+  background: var(--bg-color);
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border-radius: 0.05rem;
+}
+.hero .hero-container .hero-pannel-2 {
+}
+.hero .hero-container .hero-pannel-2 img {
+  width: 720px;
+  aspect-ratio: 16/9;
 }
