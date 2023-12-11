@@ -25,3 +25,25 @@
 html {
   font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
 }
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+body {
+  min-height: 100vh;
+  font-family: "Instrument Sans", Arial, Helvetica, sans-serif;
+  background-color: var(--neutral-100);
+}
+em {
+  font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
