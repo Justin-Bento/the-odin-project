@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("/foundations/rock-paper-scissors/assets/fonts/RethinkSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rethink Sans Italic";
+  src: url("/foundations/rock-paper-scissors/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
+}
