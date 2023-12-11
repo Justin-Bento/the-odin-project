@@ -14,6 +14,16 @@
 
 ## Foundations Projects
 
+| Project Name                  | Link to Project's live preview                                                                                                                                                 | Project' Code preview    |
+| ------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| Project: Recipes              | [https://the-odin-project-sandy.vercel.app/foundations/odin-recipes/index.html](https://the-odin-project-sandy.vercel.app/foundations/odin-recipes/index.html)                 | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/odin-recipes](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/odin-recipes)                     |
+| Project: Landing Page         | [https://the-odin-project-sandy.vercel.app/foundations/landing-page/index.html](https://the-odin-project-sandy.vercel.app/foundations/landing-page/index.html)                 | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/landing-page](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/landing-page)                     |
+| Project: Rock Paper Scissors  | [https://the-odin-project-sandy.vercel.app/foundations/rock-paper-scissors/index.html](https://the-odin-project-sandy.vercel.app/foundations/rock-paper-scissors/index.html)   | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/rock-paper-scissors](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/rock-paper-scissors)                     |
+| Project: Etch-a-Sketch        | [https://the-odin-project-sandy.vercel.app/foundations/etch-a-sketch/index.html](https://the-odin-project-sandy.vercel.app/foundations/etch-a-sketch/index.html)               | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/etch-a-sketch](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/etch-a-sketch)                     |
+| Project: Calculator           | [https://the-odin-project-sandy.vercel.app/foundations/calculator/index.html](https://the-odin-project-sandy.vercel.app/foundations/calculator/index.html)                     | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/calculator](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/calculator)                     |
+
+
+
 ## Full Stack JavaScript
 
 **Project: Signup Form**
