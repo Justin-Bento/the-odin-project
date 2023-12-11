@@ -24,6 +24,9 @@
 .navbar-pannel-1  a {
   text-decoration: none;
   color: var(--secondary-color);
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 800;  
 }
 /* .navbar-pannel-2  {} */
 .navbar-pannel-2  {
@@ -34,4 +37,6 @@
 .navbar-pannel-2  a {
   text-decoration: none;
   color: var(--secondary-color);
-}
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  }
