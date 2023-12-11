@@ -1,14 +1,21 @@
-const playerSelection = getPlayerChoice();
-const computerSelection = getComputerChoice(3);
+const conditions = {
+  rock: "rock",
+  paper: "paper",
+  scissors: "scissors"
+};
 
 function playRound(playerSelection, computerSelection) {
+  playerSelection = playerSelection.toLowerCase(); // Convert to lowercase for case-insensitivity
+
+  const winningCombinations = [
+    ["rock", "scissors"],
+    ["paper", "rock"],
+    ["scissors", "paper"]
+  ];
+
   if (playerSelection === computerSelection) {
     console.log(`It's a tie! ${playerSelection} can't beat ${computerSelection}.`);
-  } else if (playerSelection === "Rock" && computerSelection === "Scissors!") {
-    console.log(`${playerSelection} beats ${computerSelection}. You win!`);
-  } else if (playerSelection === "Paper!" && computerSelection === "Rock!") {
-    console.log(`${playerSelection} beats ${computerSelection}. You win!`);
-  } else if (playerSelection === "Scissors!" && computerSelection === "Paper!") {
+  } else if (winningCombinations.some(([player, computer]) => player === playerSelection && computer === computerSelection)) {
     console.log(`${playerSelection} beats ${computerSelection}. You win!`);
   } else {
     console.log(`${computerSelection} beats ${playerSelection}. You lose!`);
@@ -16,19 +23,22 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function getComputerChoice(max) {
-  let decision = Math.floor(Math.random() * max);
+  const decision = Math.floor(Math.random() * max);
   if (decision === 0) {
-    return "Rock!";
+    return conditions.rock;
   } else if (decision === 1) {
-    return "Paper!";
-  } else if (decision === 2) {
-    return "Scissors!";
+    return conditions.paper;
+  } else {
+    return conditions.scissors;
   }
 }
 
 function getPlayerChoice() {
-  let playerChoice = window.prompt("Choose Rock, Paper, or Scissors:", "");
-  return playerChoice;
+  const playerChoice = window.prompt("Choose Rock, Paper, or Scissors:", "");
+  return playerChoice.toLowerCase(); // Convert to lowercase for case-insensitivity
 }
+
+const playerSelection = getPlayerChoice();
+const computerSelection = getComputerChoice(3);
 
 playRound(playerSelection, computerSelection);
