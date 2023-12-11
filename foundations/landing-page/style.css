@@ -11,3 +11,7 @@
   --primary-color: #f9fafb;
   --secondary-color: #e5e7eb;
 }
+.navbar {
+  padding: 1.5rem;
+  background: var(--dark-bg-color);
+}
