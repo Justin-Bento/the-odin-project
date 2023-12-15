@@ -23,6 +23,9 @@
   gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
 }
+.projects > div {
+  margin-bottom: 2rem;
+}
 .pannel {
   overflow: hidden;
   border-radius: 0.2rem;
@@ -38,9 +41,23 @@
   padding: 1rem 1.25rem;
 }
 .pannel-container a {
-  font-size: 0.875rem; /* 14px */
+  margin: 0rem 0rem 2rem 0rem;
+  padding: 0rem;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  text-decoration: none;
+  color: black;  
+  font-weight: bold;
+}
+.pannel-container p {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1rem; /* 14px */
   line-height: 1.25rem; /* 20px */
-  text-decoration: underline;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 
 @media (min-width: 768px) {
