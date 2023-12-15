@@ -15,3 +15,38 @@
   margin: 0rem;
   line-height: 1.5;
 }
+.projects {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+.pannel {
+  overflow: hidden;
+  border-radius: 0.2rem;
+  background-color: white;
+  list-style-type: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.pannel-container {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: white;
+  list-style-type: none;
+  padding: 1rem 1.25rem;
+}
+.pannel-container a {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 70rem) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
