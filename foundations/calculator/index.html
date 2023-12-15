@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project: Calculator</title>
-  <link rel="stylesheet" href="/foundations/calculator/style.css">
-  <script defer src="/foundations/calculator/script.js"></script>
-</head>
-<body>
-  <h1>Project: Calculator</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Build a digital calculator that preforms basic math operations with numbers." />
+    <title>Project Calulator by Justin Bento</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p class="notation">Justin Bento</p>
+      <h1>Project Calulator</h1>
+      <p>Build a digital calculator that preforms basic math operations with numbers.</p>
+    </header>
+    <main>
+      <section class="result">
+        <div data-previous-operand class="previous-operand">previous-operand</div>
+      </section>
+      <section class="output">
+        <div data-curent-operand class="curent-operand"></div>
+      </section>
+      <section class="calulator">
+        <button data-delete>DEl</button>
+        <button data-all-clear>AC</button>
+        <button data-off>off</button>
+        <button data-on>on</button>
+        <button data-operation>+</button> <!-- Addition  -->
+        <button data-operation>-</button> <!-- Subtraction  -->
+        <button data-operation>*</button> <!-- Multiplication  -->
+        <button data-operation>/</button> <!-- Division  -->
+        <button data-number>0</button> <!-- Digit 0  -->
+        <button data-number>1</button> <!-- Digit 1  -->
+        <button data-number>2</button> <!-- Digit 2  -->
+        <button data-number>3</button> <!-- Digit 3  -->
+        <button data-number>4</button> <!-- Digit 4  -->
+        <button data-number>5</button> <!-- Digit 5  -->
+        <button data-number>6</button> <!-- Digit 6  -->
+        <button data-number>7</button> <!-- Digit 7  -->
+        <button data-number>8</button> <!-- Digit 8  -->
+        <button data-number>9</button> <!-- Digit 9  -->
+        <button data-equals >&#61;</button> <!-- Equals -->
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
