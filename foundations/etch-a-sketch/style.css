@@ -63,3 +63,14 @@ em {
 .odin-breadcrumb > *:last-of-type {
   text-decoration: underline;
 }
+
+main {
+  padding: 4rem;
+}
+.grid {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 1.5rem;
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+}
