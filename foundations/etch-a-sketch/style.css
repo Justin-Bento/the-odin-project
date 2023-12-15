@@ -58,6 +58,6 @@ em {
   color: whitesmoke;
   text-decoration: none;
 }
-.odin-breadcrumb > *:hover {
+.odin-breadcrumb > *:last-of-type {
   text-decoration: underline;
 }
