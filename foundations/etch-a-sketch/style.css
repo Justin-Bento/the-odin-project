@@ -66,6 +66,8 @@ em {
 
 main {
   padding: 4rem;
+  max-width: 1024px;
+  margin: 0rem auto;
 }
 .grid {
   width: 100%;
