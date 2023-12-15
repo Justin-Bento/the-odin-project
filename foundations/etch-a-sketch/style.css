@@ -57,6 +57,8 @@ em {
 .odin-breadcrumb > * {
   color: whitesmoke;
   text-decoration: none;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
 }
 .odin-breadcrumb > *:last-of-type {
   text-decoration: underline;
