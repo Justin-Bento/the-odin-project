@@ -11,6 +11,9 @@
   line-height: 1.75rem; /* 28px */
   font-weight: 600;
 }
+.task-details {
+  margin-bottom: 1rem;
+}
 .task-details p {
   margin: 0rem;
   line-height: 1.5;
