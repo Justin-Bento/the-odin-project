@@ -42,6 +42,11 @@ em {
   font-family: "Instrument Sans Italic", Arial, Helvetica, sans-serif;
   font-style: italic;
 }
+/* 
+  =======================================================
+    reset styles ends.
+  =======================================================
+*/
 .odin-breadcrumb {
   display: flex;
   align-items: center;
