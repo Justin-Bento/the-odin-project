@@ -35,7 +35,13 @@ p {
   font-weight: 600;
 }
 .task-details {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1rem;
+}
+.task-details p {
+  margin: 0rem;
+  padding: 0rem;
 }
 .projects {
   display: grid;
@@ -106,5 +112,9 @@ p {
     max-width: 1280px;
     padding: 0rem;
     margin: 0rem auto;
+  }
+  .task-details {
+    flex-direction: row;
+    gap: 1rem;
   }
 }
