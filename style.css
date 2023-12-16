@@ -4,21 +4,19 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "Rethink Sans";
-  src: url("/assets/fonts/RethinkSans-VariableFont_wght.ttf")
-    format("truetype");
+  font-family: 'Rethink Sans';
+  src: url('/assets/fonts/RethinkSans-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "Rethink Sans Italic";
-  src: url("/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf")
-    format("truetype");
+  font-family: 'Rethink Sans Italic';
+  src: url('/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
 body {
-  font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
 }
 p {
   -webkit-font-smoothing: auto;
@@ -75,9 +73,9 @@ p {
   line-height: 1.5rem; /* 24px */
   letter-spacing: 0.025em;
   overflow: hidden;
-display: -webkit-box;
--webkit-box-orient: vertical;
--webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
   opacity: 0.8;
 }
 .pannel-container a {
