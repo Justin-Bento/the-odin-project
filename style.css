@@ -66,6 +66,7 @@ p {
   font-size: 1.25rem; /* 20px */
   line-height: 1.75rem; /* 28px */
   font-weight: 700;
+  color: #030712;
 }
 .pannel-container p:last-of-type {
   margin: 0rem;
@@ -78,6 +79,7 @@ p {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   opacity: 0.8;
+  color: #1f2937;
 }
 .pannel-container a {
   margin-top: 0.5rem;
@@ -85,6 +87,7 @@ p {
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
   text-transform: none;
+  color: #374151;
 }
 
 @media (min-width: 768px) {
