@@ -61,26 +61,25 @@ p {
   flex-direction: column;
   gap: 0.25rem;
 }
-.pannel-container a {
+.pannel-container p:first-of-type {
   margin: 0rem;
   padding: 0rem;
-  scroll-margin: 5rem; /* 80px */
   font-size: 1.25rem; /* 20px */
   line-height: 1.75rem; /* 28px */
-  text-decoration: none;
-  color: black;  
-  font-weight: 600;
-  letter-spacing: 0.025em;
+  font-weight: 700;
 }
-.pannel-container p {
+.pannel-container p:last-of-type {
   margin: 0rem;
   padding: 0rem;
-  font-size: 1rem; /* 14px */
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.pannel-container a {
+  margin-top: 0.5rem;
+  padding: 0rem;
+  font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  text-transform: none;
 }
 
 @media (min-width: 768px) {
