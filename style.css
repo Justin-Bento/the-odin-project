@@ -20,6 +20,11 @@
 body {
   font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
 }
+p {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  line-height: 1.5rem; /* 24px */
+}
 .subtile {
   margin: 0rem;
   padding: 0rem;
@@ -30,10 +35,6 @@ body {
 }
 .task-details {
   margin-bottom: 1rem;
-}
-.task-details p {
-  margin: 0rem;
-  line-height: 1.5;
 }
 .projects {
   display: grid;
@@ -56,15 +57,20 @@ body {
   background-color: white;
   list-style-type: none;
   padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 .pannel-container a {
-  margin: 0rem 0rem 2rem 0rem;
+  margin: 0rem;
   padding: 0rem;
-  font-size: 1.125rem; /* 18px */
+  scroll-margin: 5rem; /* 80px */
+  font-size: 1.25rem; /* 20px */
   line-height: 1.75rem; /* 28px */
   text-decoration: none;
   color: black;  
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.025em;
 }
 .pannel-container p {
   margin: 0rem;
