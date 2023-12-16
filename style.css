@@ -18,6 +18,9 @@
 body {
   font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
 }
+main {
+  padding: 1rem;
+}
 p {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -94,6 +97,9 @@ p {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  main {
+    padding: 3rem;
+  }
 }
 @media (min-width: 70rem) {
   .projects {
@@ -101,6 +107,7 @@ p {
   }
   main {
     max-width: 1280px;
+    padding: 0rem;
     margin: 0rem auto;
   }
 }
