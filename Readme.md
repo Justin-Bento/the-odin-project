@@ -2,25 +2,29 @@
 
 # Justin Bento's Odin Project Journey. 
 
-Welcome to my personal repository, a space dedicated to documenting and storing my projects related to The Odin Project. Embarking on this educational adventure, this repository becomes a record of my learning experiences and achievements. It serves as a tool to track my growth and reflect on the exciting path I've chosen with The Odin Project. My rationale for selecting this path is to refresh my knowledge of the basics of website development and evolve into a proficient software developer rather than just a designer. Moreover, this project-based learning has significantly bolstered my confidence in programming and various facets of learning.
+Welcome to my personal repository, where I document and store my projects connected to The Odin Project. As I dive into this educational journey, this repository becomes a record of what I'm learning and accomplishing. It's a tool for tracking my growth and reflecting on the exciting path I've taken with The Odin Project.
+
+I chose this path to brush up on the fundamentals of website development and transform into a skilled software developer, moving beyond just being a designer. Additionally, this project-based learning has greatly boosted my confidence in programming and various aspects of learning.
 
 While currently anticipating a break, let me provide a succinct overview of my website development timeline:
 
 ## Understanding Learning Journey Timeline
 
-Started Website Design and Development: 2019. My genuine exploration into website design and development commenced in 2019. Initially drawn to programming, I later learned it would not be utilized in the fiscal year.
+I began learning about website design and development in 2019. At first, I was interested in programming, but I found out it wouldn't be used that year.
 
-Fast forward, I switched programs for that reason and graduated in a new program called Multimedia Design and Development: 2021. Transitioning to multimedia design and development in 2021, this program placed a greater emphasis on design foundations. While intriguing, I discovered that I don't always enjoy being creative because it can be tiring.
+Later on, in 2021, I switched to a new program called Multimedia Design and Development. This program focused more on the basics of design. Although it was interesting, I realized that I don't always enjoy being creative because it can be tiring.
 
 In my free time, I revisited Website Development, seeking good, free resources. That's where I discovered The Odin Project.
+
 ### Started The Odin Project: 2021 - 2022
-- **Description:** After graduating, I came to terms that my development skills were below par for a lot of programmers during this time. I tried to apply to boot camps, and I didn't get into programs I wanted to. After that, I realized my foundations for software development were immensely weak compared to others.
+
+After I finished school, I realized that my coding skills weren't as good as many other programmers at that time. I attempted to join coding boot camps, but I didn't get accepted into the ones I preferred. That's when I recognized that my understanding of software development was much weaker compared to others.
 
 ### **Re-Started The Odin Project Foundations:** May 2023
 
-I restarted my previous journey from the beginning, and this time I made a rule with myself that I am going to write down important information I skipped the last time to strengthen my basics in website development. I've stuck with this course ever since, and doing this has helped improve my confidence in website development with HTML, CSS, and JavaScript.
+I decided to restart my journey in website development from scratch. This time around, I set a rule for myself: jot down essential information I missed before to build a stronger foundation. Since then, I've stuck with this approach, and it has significantly boosted my confidence in using HTML, CSS, and JavaScript.
 
-While my JavaScript may be weak, I started working on my own projects and projects for clients to help improve on this. After completing The Odin Project Foundations back on September 26th, 2023, I've managed to secure a job in Website Development and receive solid reviews. After taking some time to reflect, I decided to begin learning Ruby on Rails in November 2023 after a Ruby conference in Toronto. As this community was inviting to newcomers, this will also be my go-to language in case I want to automate things in the future.
+Although my JavaScript skills were a bit shaky, I started working on personal and client projects to enhance them. After completing The Odin Project Foundations on September 26th, 2023, I landed a job in website development and received positive feedback. Taking a moment to reflect, I chose to delve into Ruby on Rails in November 2023, inspired by a Ruby conference in Toronto. The welcoming community motivated me, and I see Ruby as my go-to language for future automation projects.
 
 Thanks for reading about my background into website design and development. 
 
