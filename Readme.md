@@ -1,45 +1,51 @@
 <img alt="odin project logo" src="https://www.skillfinder.com.au/media/wysiwyg/the-odin-project-logo-skill-finder-partners-page.png" width="auto" height='100px' style="object-fit: fill;" />
 
-<h1>My Odin Project Journey</h1>
+# Justin Bento's Odin Project Journey. 
 
-<p>Welcome to my personal repository, where I'll be documenting and storing my projects related to The Odin Project. This is where I'll chronicle my coding journey, and share my progress, and showcase the projects I create along the way. </p>
-<p>As I embark on this educational adventure, this repository will serve as a record of my learning experiences and accomplishments. Allowing me to track my growth and reflect on the exciting path I've chosen with The Odin Project.</p>
+Welcome to my personal repository, a space dedicated to documenting and storing my projects related to The Odin Project. Embarking on this educational adventure, this repository becomes a record of my learning experiences and achievements. It serves as a tool to track my growth and reflect on the exciting path I've chosen with The Odin Project. My rationale for selecting this path is to refresh my knowledge of the basics of website development and evolve into a proficient software developer rather than just a designer. Moreover, this project-based learning has significantly bolstered my confidence in programming and various facets of learning.
 
-<em> Disclaimer: I studied Website Design and Development in college. My goal in taking this course was to reteach myself the fundamentals of becoming a website developer rather than a website designer. As i started to prefer development over design as it was less abstract and very straightforward.</em>
+While currently anticipating a break, let me provide a succinct overview of my website development timeline:
 
-<h2>Odin Project Time Line</h2>
-<p>Foundations Course: January 2023 - March 2023</p>
-<p>Started Full Stack JavaScript: June 2023 - Ongoing</p>
+## Understanding Learning Journey Timeline
 
+Started Website Design and Development: 2019. My genuine exploration into website design and development commenced in 2019. Initially drawn to programming, I later learned it would not be utilized in the fiscal year.
 
-## Foundations Projects
+Fast forward, I switched programs for that reason and graduated in a new program called Multimedia Design and Development: 2021. Transitioning to multimedia design and development in 2021, this program placed a greater emphasis on design foundations. While intriguing, I discovered that I don't always enjoy being creative because it can be tiring.
 
-| Project Name                  | Link to Project's live preview                                                                                                                                                 | Project' Code preview    |
-| ------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
-| Project: Recipes              | [https://the-odin-project-sandy.vercel.app/foundations/odin-recipes/index.html](https://the-odin-project-sandy.vercel.app/foundations/odin-recipes/index.html)                 | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/odin-recipes](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/odin-recipes)                     |
-| Project: Landing Page         | [https://the-odin-project-sandy.vercel.app/foundations/landing-page/index.html](https://the-odin-project-sandy.vercel.app/foundations/landing-page/index.html)                 | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/landing-page](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/landing-page)                     |
-| Project: Rock Paper Scissors  | [https://the-odin-project-sandy.vercel.app/foundations/rock-paper-scissors/index.html](https://the-odin-project-sandy.vercel.app/foundations/rock-paper-scissors/index.html)   | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/rock-paper-scissors](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/rock-paper-scissors)                     |
-| Project: Etch-a-Sketch        | [https://the-odin-project-sandy.vercel.app/foundations/etch-a-sketch/index.html](https://the-odin-project-sandy.vercel.app/foundations/etch-a-sketch/index.html)               | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/etch-a-sketch](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/etch-a-sketch)                     |
-| Project: Calculator           | [https://the-odin-project-sandy.vercel.app/foundations/calculator/index.html](https://the-odin-project-sandy.vercel.app/foundations/calculator/index.html)                     | [https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/calculator](https://github.com/Justin-Bento/the-odin-project/tree/main/foundations/calculator)                     |
+In my free time, I revisited Website Development, seeking good, free resources. That's where I discovered The Odin Project.
+### Started The Odin Project: 2021 - 2022
+- **Description:** After graduating, I came to terms that my development skills were below par for a lot of programmers during this time. I tried to apply to boot camps, and I didn't get into programs I wanted to. After that, I realized my foundations for software development were immensely weak compared to others.
 
+### **Re-Started The Odin Project Foundations:** May 2023
 
+I restarted my previous journey from the beginning, and this time I made a rule with myself that I am going to write down important information I skipped the last time to strengthen my basics in website development. I've stuck with this course ever since, and doing this has helped improve my confidence in website development with HTML, CSS, and JavaScript.
 
-## Full Stack JavaScript
+While my JavaScript may be weak, I started working on my own projects and projects for clients to help improve on this. After completing The Odin Project Foundations back on September 26th, 2023, I've managed to secure a job in Website Development and receive solid reviews. After taking some time to reflect, I decided to begin learning Ruby on Rails in November 2023 after a Ruby conference in Toronto. As this community was inviting to newcomers, this will also be my go-to language in case I want to automate things in the future.
 
-**Project: Signup Form**
+Thanks for reading about my background into website design and development. 
 
-Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
+Here are some steps to install this repository:
 
-Live URL: [https://the-odin-project-sandy.vercel.app/full-stack-javascript/admin-dashboard/index.html](https://the-odin-project-sandy.vercel.app/full-stack-javascript/sign-up-form/)
+## Installation
 
-Github Code URL: [https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/admin-dashboard](https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/sign-up-form) 
+First, I open up my terminal and go to the main directory using the command "cd" and then press enter.
+````
+cd
+````
+After that, I create a parent directory named "development."
+````
+mkdir ~/development/
+````
+Once the folder is created, I enter into it. This folder will hold all of my development-related projects, keeping everything organized in one place instead of scattered throughout my system.
+````
+cd development
+````
+Now, within this main development folder, I've listed all the resources I used to set up my developer environment. I often refer to these resources whenever I set up my machine, ensuring a consistent experience across different devices, from my home computer to my work laptop.
 
----
+- Setting up Git with GitHub: [https://www.theodinproject.com/lessons/foundations-setting-up-git](https://www.theodinproject.com/lessons/foundations-setting-up-git)
+- Setting up Nodejs: [https://www.theodinproject.com/lessons/foundations-installing-node-js](https://www.theodinproject.com/lessons/foundations-installing-node-js)
+- Setting up WSL2: [https://gorails.com/setup/windows/11#linux-subsystem](https://gorails.com/setup/windows/11#linux-subsystem)
+- Setting up Ruby programming language: [https://gorails.com/setup/windows/11#ruby](https://gorails.com/setup/windows/11#ruby)
+- Setting up Ruby on Rails framework: [https://gorails.com/setup/windows/11#rails](https://gorails.com/setup/windows/11#rails)
 
-**Project: Admin Dashboard**
-
-Now that you’ve had plenty of practice using Grid, we are going to build a full dashboard design. For this project, use whatever tools you need to get it done, but try to lean on Grid for the majority of the layout work. Go back through the lessons or practice assignments if you need a refresher.
-
-Live URL: https://the-odin-project-sandy.vercel.app/full-stack-javascript/admin-dashboard/index.html
-
-Github Code URL: https://github.com/Justin-Bento/the-odin-project/tree/main/full-stack-javascript/admin-dashboard 
+When you've setup this specific environment, head back to your terminal and clone this repostory the folder where you keep all your development projects. 
