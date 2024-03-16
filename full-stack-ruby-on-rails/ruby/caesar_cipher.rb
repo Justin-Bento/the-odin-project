@@ -9,3 +9,8 @@
 # When the plaintext is grabbed from the encrypted text, it will shift by the proposed number.
 # For example, in the case of 3, 'D' would be replaced by 'A', 'E' would become 'B', and so on.
 
+def caesar_cipher(content, number)
+  # Define a string representing the alphabet
+  #alphabet = ("a".."z").to_a.join + ("A".."Z").to_a.join
+end
+
