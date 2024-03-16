@@ -5,6 +5,7 @@
 
 # Pseudo Code:
 # -----------------------------------------------------------------------------------------
-/bin/bash: line 1: :WQA: command not found
-# When the plaintext is grabbed from the encrypted text, it will shift by the proposed number. 
+# Grab plaintext from the user and replace it with a fixed number of positions down the alphabet.
+# When the plaintext is grabbed from the encrypted text, it will shift by the proposed number.
 # For example, in the case of 3, 'D' would be replaced by 'A', 'E' would become 'B', and so on.
+
