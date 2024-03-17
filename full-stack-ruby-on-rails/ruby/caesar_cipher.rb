@@ -5,12 +5,11 @@
 
 # Pseudo Code:
 # -----------------------------------------------------------------------------------------
-# Grab plaintext from the user and replace it with a fixed number of positions down the alphabet.
-# When the plaintext is grabbed from the encrypted text, it will shift by the proposed number.
-# For example, in the case of 3, 'D' would be replaced by 'A', 'E' would become 'B', and so on.
+# Take a message from someone and change each letter to be a certain number of steps down the alphabet.
+# When you get the message back, you shift each letter back by the same number of steps.
+# For instance, if you shift each letter by 3, 'D' would turn into 'A', 'E' would become 'B', and so on."
 
 def caesar_cipher(content, number)
   # Define a string representing the alphabet
   #alphabet = ("a".."z").to_a.join + ("A".."Z").to_a.join
 end
-
