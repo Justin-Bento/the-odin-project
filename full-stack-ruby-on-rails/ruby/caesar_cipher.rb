@@ -11,5 +11,8 @@
 
 def caesar_cipher()
   # Define a string representing the alphabet
-  #alphabet = ("a".."z").to_a.join + ("A".."Z").to_a.join
+  alphabet = ("a".."z").to_a.join + ("A".."Z").to_a.join
+  puts alphabet
 end
+
+puts caesar_cipher
