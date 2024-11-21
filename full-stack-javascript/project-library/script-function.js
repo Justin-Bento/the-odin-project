@@ -3,11 +3,11 @@ const collection = document.querySelector(".myLibrary");
 
 function Book(title, author, numberOfPages, pagesRead) {
   // Constructor
-  this.title = title; 
+  this.title = title;
   this.author = author;
   this.numberOfPages = numberOfPages;
   this.pagesRead = pagesRead;
-  this.status = function() {
+  this.status = function () {
     if (this.pagesRead && this.numberOfPages === this.pagesRead) {
       return "completed";
     } else if (this.pagesRead === 0) {
@@ -23,16 +23,16 @@ function addBookToLibrary(book) {
 }
 
 function createBookElement(book) {
-  const li = document.createElement('li');
+  const li = document.createElement("li");
   li.textContent = `${book.title} by ${book.author} - ${book.status()}`;
   return li;
 }
 
 function displayLibrary() {
   const body = document.body;
-  const ul = document.createElement('ul');
+  const ul = document.createElement("ul");
 
-  myLibrary.forEach(book => {
+  myLibrary.forEach((book) => {
     const li = createBookElement(book);
     ul.appendChild(li);
   });
@@ -48,7 +48,6 @@ const book4 = new Book("Brave New World", "Aldous Huxley", 235, 0);
 const book5 = new Book("What Every Body Is Saying", "Joe Navarro", 235, 0);
 const book6 = new Book("Writing For The Web", "Crawford Kilian", 187, 187);
 const book7 = new Book("The Design of Everyday Things", "Don Norman", 347, 347);
-
 
 // Add books to the library
 addBookToLibrary(book1);
