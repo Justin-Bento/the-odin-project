@@ -1,18 +1,7 @@
-const content = document.querySelector("#content");
+// Import the main_page function
+import { main_page } from "./mainPage.js";
 
-// Clear existing content to prevent duplicates
-content.innerHTML = "";
-
-// Section for creating elements
-const headline = document.createElement("h1");
-const supporting = document.createElement("p");
-
-// Section for writing Content
-headline.textContent = "Welcome To Bistro Huddy";
-
-supporting.textContent =
-  " Bistro Huddy is a fictional restaurant and set created by Drew Talbert and his wife, Andrea Kelley.";
-
-// Section for appending Content
-content.appendChild(headline);
-content.appendChild(supporting);
+// Call the function to render the content
+document.addEventListener("DOMContentLoaded", () => {
+  main_page();
+});
