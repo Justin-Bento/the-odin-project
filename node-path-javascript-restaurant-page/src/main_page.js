@@ -10,12 +10,14 @@ export const main_page = () => {
   const title = document.createElement("h2");
   const subtitle_appetizers = document.createElement("h3");
   const subtitle_SoupsSalads = document.createElement("h3");
+  const subtitle_Entrees = document.createElement("h3");
 
   // Section for writing Content
   headline.textContent = "Welcome To Bistro Huddy";
   title.textContent = "Bistro Huddy Menu";
   subtitle_appetizers.textContent = "Appetizers";
   subtitle_SoupsSalads.textContent = "Soups & Salads";
+  subtitle_Entrees.textContent = "Entrees";
 
   supporting.textContent =
     "Bistro Huddy is a fictional restaurant and set created by Drew Talbert and his wife, Andrea Kelley.";
@@ -26,4 +28,5 @@ export const main_page = () => {
   content.appendChild(title);
   content.appendChild(subtitle_appetizers);
   content.appendChild(subtitle_SoupsSalads);
+  content.appendChild(subtitle_Entrees);
 };
