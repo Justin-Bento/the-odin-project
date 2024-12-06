@@ -17,3 +17,19 @@ body {
   color: var(--shark-950);
   background-color: var(--shark-50);
 }
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 40ch;
+  gap: 1rem;
+}
+button {
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 1px solid var(--shark-400);
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--shark-100);
+}
