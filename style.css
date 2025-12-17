@@ -2,28 +2,30 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  vertical-align: baseline;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 @font-face {
-  font-family: 'Rethink Sans';
-  src: url('/assets/fonts/RethinkSans-VariableFont_wght.ttf') format('truetype');
+  font-family: "Rethink Sans";
+  src: url("/assets/fonts/RethinkSans-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Rethink Sans Italic';
-  src: url('/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-family: "Rethink Sans Italic";
+  src: url("/assets/fonts/RethinkSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 body {
-  font-family: 'Rethink Sans', Arial, Helvetica, sans-serif;
+  font-family: "Rethink Sans", Arial, Helvetica, sans-serif;
 }
 main {
   padding: 1rem;
 }
 p {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
   line-height: 1.5rem; /* 24px */
 }
 .subtile {
